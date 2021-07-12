@@ -1,0 +1,257 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 3% 15% ;
+}
+
+@media (max-width: 720px){
+    .container-fluid{
+        padding: 3% 5%;
+    }
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+@media (max-width: 990px){
+    
+    .navbar {
+        padding: 0 0 2rem;
+    }
+
+}
+
+
+/* Title Section*/
+#title h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title h2 {
+    color: white;
+}
+
+#title {
+    background-color: #DA0037;
+}
+
+#name {
+    margin: 5rem 0;
+}
+
+
+#name .row {
+    text-align: center;
+}
+
+#tweet {
+    border-radius: 20px;
+}
+
+@media (max-width: 990px) {
+   #name {
+       margin: 0;
+   }
+}
+
+/* About Me Section*/
+
+#aboutme h1 {
+    color: #DA0037;
+}
+
+#aboutmecontent h3 {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 2;
+}
+
+#aboutmeqoute {
+    margin: 0 0 0 10rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#aboutmeqoute:hover {
+    color: #DA0037;
+}
+
+@media (max-width: 720px){
+    #aboutmeqoute {
+        margin: 0 0 0 2rem;
+    }
+}
+
+
+/* Certificates Section */
+
+#certificates {
+    background-color: #00AF91   ;
+}
+
+#certificates h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+
+@media (max-width: 720px) {
+
+    #certificates h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+}
+
+/* Carousel Section */
+
+.carousel-inner h5 {
+    font-weight: 900;
+}
+
+/* Achievements Section */
+
+#achievements {
+    background-color:#fafbfa;
+}
+
+#achievements h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+#achievements h1 {
+    text-align: center;
+}
+
+#achievements .head {
+    font-weight: 900;
+    text-align: start;
+    font-size: 4rem;
+}
+
+@media (max-width: 720px) {
+    #achievements .head {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+}
+
+
+
+/* Portfolio Section */
+
+.hr {
+    padding: 0 2rem ;
+}
+
+#portfolio {
+    background-color: #fafbfa;
+}
+
+/* EZ Wallet */
+#ezwallet {
+    background-color: #DA0037;
+    border-radius: 10px;
+    padding: 3% 10%;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#ezwallet h1, h4 {
+    color: white;
+}
+
+#ezwallet img {
+    width: 30%;
+    margin: 2rem 0;
+}
+
+#ezwallet a{
+    text-decoration: none;
+    color: white; 
+}
+
+
+#ezwallet a:hover {
+    color: black;
+}
+
+/* TodoHub */
+#todohub {
+    background-color: #00AF91;
+    border-radius: 10px;
+    padding: 3% 10%;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#todohub h1, h4 {
+    color: white;
+}
+
+#todohub h4 {
+    margin: 0 0 3rem 0;
+}
+
+#todohub img {
+    width: 30%;
+    margin: 2rem 0;
+}
+
+
+#todohub a {
+    text-decoration: none;
+    color: white; 
+}
+
+#todohub a:hover {
+    color: black;
+}
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #202020;
+    color: white;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #00AF91;
+}
+
+#footer .container-fluid {
+    padding: 3% 15% 0 15%;
+}
+
+#copyright {
+    text-align: center;
+    margin: 3rem 0 0 0;
+}
+
+@media (max-width: 990px) {
+    #footer .sitemap{
+        margin: 3rem 0 0 0;
+    }
+}   
