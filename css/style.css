@@ -255,3 +255,9 @@ body {
         margin: 3rem 0 0 0;
     }
 }   
+
+/* On Scroll Effects */
+
+.on-scroll {
+    color:white;
+}
